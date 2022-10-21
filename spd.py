@@ -74,7 +74,7 @@ def get_data(html_text):
 	data = body.find('table')
 	if data is None:
 		print (html_text)
-		print ("ERROR!!!")
+		print ("***ERROR!!!***")
 		return final
 	trs = data.find_all('tr')
 	if trs is None:
